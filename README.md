@@ -18,7 +18,7 @@ old_jieba.py 是我之前想到甚麼寫甚麼生出來的噁心怪物 <br>
 如果有其他想嘗試判斷的文件 <br> 
 就把他替換掉 <br> 
 
-# 使用方式-2:<br>  
+# 使用方式-2:  
 
 **analyse_res = jieba.analyse.extract_tags(row, topK=3, allowPOS='ag')** 
 
