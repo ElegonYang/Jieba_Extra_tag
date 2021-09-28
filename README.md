@@ -22,6 +22,7 @@ old_jieba.py 是我之前想到甚麼寫甚麼生出來的噁心怪物 <br>
 
 **analyse_res = jieba.analyse.extract_tags(row, topK=3, allowPOS='ag')** 
 
+預設是用.csv檔案 可以依照自己需求做更換
 (row, topK=3, allowPOS='ag') <br>
 analyse_res 是變數名 請自己設定 <br>
 row -> 這是要判別的資料 可以是句子/文章字串/一大篇小說等等 <br> 
