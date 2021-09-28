@@ -8,20 +8,22 @@
 # 句子/文章/長篇小說等等 都可以分析關鍵字
 
 請使用 jieba_extra_tag.py這個版本 <br> 
-old_jieba.py 是我之前想到甚麼寫甚麼出來的噁心怪物 <br> 
+old_jieba.py 是我之前想到甚麼寫甚麼生出來的噁心怪物 <br> 
 裡面雜亂無章 單純給我做一個紀錄用<br> 
 
-# 使用方式
+# 使用方式-1
 
-把所有文件丟到同一個檔案夾 <br> 
+把想要辨識的文件丟到同一個資料夾 <br> 
 在執行即可 <br> 
 如果有其他想嘗試判斷的文件 <br> 
 就把他替換掉 <br> 
 
-# 使用方式:<br>  **analyse_res = jieba.analyse.extract_tags(row, topK=3, allowPOS='ag')** 
+# 使用方式-2:<br>  
+
+**analyse_res = jieba.analyse.extract_tags(row, topK=3, allowPOS='ag')** 
 
 (row, topK=3, allowPOS='ag') <br>
 analyse_res 是變數名 請自己設定 <br>
-row -> 這是要判別的資料 <br> 
+row -> 這是要判別的資料 可以是句子/文章字串/一大篇小說等等 <br> 
 topk  -> 這是權重 數字N 就是會顯示前面N個關鍵詞 <br> 
 allowPOS --> 詞類選擇 可複數設定 <br> 
